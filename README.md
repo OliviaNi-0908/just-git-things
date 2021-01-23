@@ -13,7 +13,7 @@
     * [Git_Ignore](supplements/04_Git_Ignore.md)
     * [Git_Tags](supplements/05_Git_Tags.md)
     * [Git-Branch-Visualizations](supplements/06_Git-Branch-Visualizations.md)
-    * [\Git-Merge](supplements/07_Git-Merge.md)
+    * [Git-Merge](supplements/07_Git-Merge.md)
     * [Git-Merge-Conflicts](supplements/08_Git-Merge-Conflicts.md)
     * [Git_Modify-The-Last-Commit](supplements/09_Git_Modify-The-Last-Commit.md)
     * [Git-Revert-A-Commit](supplements/10_Git-Revert-A-Commit.md)
