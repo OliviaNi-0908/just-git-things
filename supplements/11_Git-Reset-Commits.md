@@ -2,12 +2,12 @@
 At first glance, resetting might seem coincidentally close to reverting, but they are actually quite different. 
 * Reverting creates a new commit that reverts or undos a previous commit. 
 * Resetting, on the other hand, erases commits!
-> !! Resetting Is Dangerous !!
-> _You've got to be careful with Git's resetting capabilities. This is one of the few commands that lets you erase commits from the repository. If a commit is no longer in the repository, then its content is gone._
-> _To alleviate the stress a bit, Git does keep track of everything for about 30 days before it completely erases anything. To access this content, you'll need to use the `git reflog` command. Check out these links for more info:_
-  * [git-reflog](https://git-scm.com/docs/git-reflog)
-  * [Rewriting History](https://www.atlassian.com/git/tutorials/rewriting-history)
-  * [reflog, your safety net](http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html)
+* **!! Resetting Is Dangerous !!**
+  * _You've got to be careful with Git's resetting capabilities. This is one of the few commands that lets you erase commits from the repository. If a commit is no longer in the repository, then its content is gone._
+  * _To alleviate the stress a bit, Git does keep track of everything for about 30 days before it completely erases anything. To access this content, you'll need to use the `git reflog` command. Check out these links for more info:_
+    * [git-reflog](https://git-scm.com/docs/git-reflog)
+    * [Rewriting History](https://www.atlassian.com/git/tutorials/rewriting-history)
+    * [reflog, your safety net](http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html)
 
 
 # Relative Commit References
@@ -81,7 +81,7 @@ The way that Git determines if it erases, stages previously committed changes, o
 * Totally erase commits with the `--hard` flag
 
 
-# Do Backup before `git reset'
+# Do Backup before `git reset`
 Before I do any resetting, I usually create a `backup` branch on the most-recent commit so that I can get back to the commits if I make a mistake:
 ```sh
 $ git branch backup
